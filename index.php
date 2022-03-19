@@ -8,12 +8,6 @@
 			<link rel="stylesheet" href="style.css" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-			<style>
-				body {
-				  background-image: url('jungleBACK.gif');
-				  background-size: cover;
-				}
-			</style>
 	</head>
 <body>
 	<?php include 'navbar.php';?>

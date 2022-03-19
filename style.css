@@ -1,7 +1,19 @@
+body{
+  background-image: url('jungleBACK.gif');
+  background-size: cover;
+  cursor: url('iconedit5.png'),auto;
+}
+
 #navigation,.navbar .navbar-default{
   background-image: url('navbar2.png');
   padding-left:20px;
 }
 #NavbarItemColor{
   color: #a68809;
+  font-size: medium;
+}
+#NavbarItemColor:hover{
+    background-image: url('iconedit5.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
