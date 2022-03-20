@@ -5,7 +5,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="navbar-brand nav-link active" href="#" id="NavbarItemColor">Log-IN</a>
+      <a class="navbar-brand nav-link active" href="#" id="NavbarItemColor">Log-In</a>
       <a class="navbar-brand nav-link active" href="#" id="NavbarItemColor">Impressum</a>
      
     </div>
