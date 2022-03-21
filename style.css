@@ -29,6 +29,11 @@ p{
   font-size: medium;
 }
 
+label{
+  color: #a68809;
+  font-size: medium;
+}
+
 #intro {
   background-color: rgba(14, 13, 13, 0.65);
   border-radius: 15px;
@@ -45,3 +50,21 @@ p{
 #headingtime{
   animation-duration: 2s;
 }   
+
+#login{
+  background-color: rgba(14, 13, 13, 0.65);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+#loginform{
+  text-align: center;
+  color: #a68809;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+#loginButton{
+  text-align: center;
+  margin-top: 20px;
+}

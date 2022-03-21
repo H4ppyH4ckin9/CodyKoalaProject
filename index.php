@@ -11,8 +11,8 @@
 
 	</head>
 <body>
-	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
 	<?php include 'navbar.php';?>
+	<audio src="backgroundMusic.mp3" type="audio/mp3"></audio>
 	<div class="container" id="intro">
 
 		<div class="w3-container w3-center w3-animate-top" id="headingtime">
