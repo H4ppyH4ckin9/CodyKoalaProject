@@ -6,6 +6,7 @@
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 			<link rel="stylesheet" href="style.css" />
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
@@ -13,7 +14,11 @@
 	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
 	<?php include 'navbar.php';?>
 	<div class="container" id="intro">
-		<h1>Cody der Koalabär</h1>
+
+		<div class="w3-container w3-center w3-animate-top" id="headingtime">
+			<h1>Cody der Koalabär</h1>
+		</div>
+		
 		<p>Hallo! Was für ein schöner Zufall, dass du bei uns gelandet bist! Du hast vielleicht schon viel mit Computern zutun, auf jeden Fall sitzt du schon vor einem! 
 			Computer gibt es nicht nur bei dir, sondern diese sind auch im Dschungel angekommen.</p>
 		<p>Nun bist du gefragt, Abenteurer. Einer unserer Dschungel-Freunde, Cody, möchte dich kennen lernen!
