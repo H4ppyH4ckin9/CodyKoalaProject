@@ -10,6 +10,7 @@
 
 	</head>
 <body>
+	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
 	<?php include 'navbar.php';?>
 	<div class="container" id="intro">
 		<h1>Cody der Koalabär</h1>
