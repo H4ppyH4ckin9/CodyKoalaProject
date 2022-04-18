@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
 	<head>
 		<title>Cody der Koalabär</title>
@@ -21,23 +24,25 @@
 							<h1>Sign-Up</h1>
 							<p style="text-align:center;">Hier kannst du dir, wenn du keinen Account hast, einen solchen erstellen!</p>
 								<div class="floating-label-wrap" id="loginform">
+								    <form name="regist" action="signupVAL.php" method="post">
 								    <label for="name" class="floating-label">Name</label>
 									<br>
-						  			<input type="text" class="floating-label-field floating-label-field--s3" id="name" placeholder="Dein Name">	
+						  			<input type="text" class="floating-label-field floating-label-field--s3" id="name" name="name" placeholder="Dein Name" required>	
 						  			<br>
 									<label for="bname" class="floating-label">Benutzername</label>
 									<br>
-						  			<input type="text" class="floating-label-field floating-label-field--s3" id="bname" placeholder="Benutzername">	
+						  			<input type="text" class="floating-label-field floating-label-field--s3" id="bname" name="bname"placeholder="Benutzername" required>	
 						  			<br>
 						  			<label for="psw" class="floating-label">Passwort</label>
 						  			<br>
-						  			<input type="password" class="floating-label-field floating-label-field--s3" id="psw" placeholder="Passwort">
+						  			<input type="password" class="floating-label-field floating-label-field--s3" id="psw" name="psw"placeholder="Passwort" required>
 						  			<br>
 						  			<label for="pswWH" class="floating-label">Passwort Wiederholen</label>
 						  			<br>
-						  			<input type="password" class="floating-label-field floating-label-field--s3" id="pswWH" placeholder="Passwort">
+						  			<input type="password" class="floating-label-field floating-label-field--s3" id="pswWH" name="pswWH"placeholder="Passwort" required>
 						  			<br>
 						  			<button type="submit" class="btn btn-warning" id="loginButton">Fertig</button>
+									</form>
 				  				</div>
 		  					<div class="col-4"></div>
 		  				</div>
