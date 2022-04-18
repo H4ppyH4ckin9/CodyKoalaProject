@@ -6,6 +6,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="navbar-brand nav-link active" href="login.php" id="NavbarItemColor">Log-In</a>
+      <a class="navbar-brand nav-link active" href="signup.php" id="NavbarItemColor">Sign-Up</a>
       <a class="navbar-brand nav-link active" href="impressum.php" id="NavbarItemColor">Impressum</a>
      
     </div>

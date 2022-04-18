@@ -18,9 +18,13 @@
 				<div class="col-4"></div>
 					<div class="col-4">
 						<div class="container" id="login">
-							<h1>Login</h1>
-							<p style="text-align:center;">Hier kannst du dich einloggen um dein Abenteuer fortzusetzen!</p>
+							<h1>Sign-Up</h1>
+							<p style="text-align:center;">Hier kannst du dir, wenn du keinen Account hast, einen solchen erstellen!</p>
 								<div class="floating-label-wrap" id="loginform">
+								    <label for="name" class="floating-label">Name</label>
+									<br>
+						  			<input type="text" class="floating-label-field floating-label-field--s3" id="name" placeholder="Dein Name">	
+						  			<br>
 									<label for="bname" class="floating-label">Benutzername</label>
 									<br>
 						  			<input type="text" class="floating-label-field floating-label-field--s3" id="bname" placeholder="Benutzername">	
@@ -29,7 +33,11 @@
 						  			<br>
 						  			<input type="password" class="floating-label-field floating-label-field--s3" id="psw" placeholder="Passwort">
 						  			<br>
-						  			<button type="submit" class="btn btn-warning" id="loginButton">Abenteuer fortsetzen!</button>
+						  			<label for="pswWH" class="floating-label">Passwort Wiederholen</label>
+						  			<br>
+						  			<input type="password" class="floating-label-field floating-label-field--s3" id="pswWH" placeholder="Passwort">
+						  			<br>
+						  			<button type="submit" class="btn btn-warning" id="loginButton">Fertig</button>
 				  				</div>
 		  					<div class="col-4"></div>
 		  				</div>
