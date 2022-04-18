@@ -1,5 +1,33 @@
 <?php
 session_start();
+require_once('dbaccess.php');
+$db_obj = new mysqli($host, $user, $password, $database);
+$logCheck=false;
+
+function test_input($data) {         //validateInput
+	$data = trim($data);
+	$data = stripslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+  }
+  $username=test_input($_POST["bname"]);
+  $password=test_input($_POST["psw"]);
+  $password=hash('sha256',$password);
+
+  $sql="SELECT `id`,`name`,`username`,`password`,`level` FROM `user` WHERE `username`= '$username';";
+  $result=$db_obj->query($sql);
+
+
+  if($result->num_rows>0){
+	  $resultArray=$result->fetch_array();
+	  if($resultArray['username']==$username && $resultArray['password']==$password){
+		$logCheck=true;
+		$_SESSION["id"] = $resultArray['id'];
+		$_SESSION["name"]=$resultArray['name'];
+		$_SESSION["username"]=$resultArray['username'];
+		$_SESSION["level"]=$resultArray['level'];
+	  }
+}
 ?>
 <html>
 	<head>
@@ -22,19 +50,14 @@ session_start();
 					<div class="col-4">
 						<div class="container" id="login">
 							<h1>Login</h1>
-							<p style="text-align:center;">Hier kannst du dich einloggen um dein Abenteuer fortzusetzen!</p>
+							<?php
+							if($logCheck==true){
+								echo '<p style="text-align:center;">Willkommen zurück '.$_SESSION["name"].'!</p>';
+							}else{
+								echo '<p style="text-align:center;">Login Daten falsch!</p>';
+							}
+							?>
 								<div class="floating-label-wrap" id="loginform">
-								    <form name="login" action="loginVAL.php" method="post">
-									<label for="bname" class="floating-label">Benutzername</label>
-									<br>
-						  			<input type="text" class="floating-label-field floating-label-field--s3" id="bname" name="bname" placeholder="Benutzername" required>	
-						  			<br>
-						  			<label for="psw" class="floating-label">Passwort</label>
-						  			<br>
-						  			<input type="password" class="floating-label-field floating-label-field--s3" id="psw" name="psw" placeholder="Passwort" required>
-						  			<br>
-						  			<button type="submit" class="btn btn-warning" id="loginButton">Abenteuer fortsetzen!</button>
-								    </form>
 				  				</div>
 		  					<div class="col-4"></div>
 		  				</div>
