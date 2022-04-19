@@ -17,10 +17,15 @@ session_start();
 	<?php include 'navbar.php';?>
 	<audio src="backgroundMusic.mp3" type="audio/mp3"></audio>
 	
-	<div class="container" id="intro">
+	<div class="container" id="intro" style="text-align: center;">
 		<h1>Impressum</h1>
-		<p style="text-align: center;">Hier werden die Namen und der Studiereden Aufgelistet die an diesem Projekt mitgearbeitet haben</p>
-		<p>Bli bla blup ....</p>
+		<p>Cody der Koalabär ist ein interaktives 2D Lernspiel welches Kindern spielerisch das Programmieren zeigen soll.</p>
+		<p>Entwickler:</p>
+		<p>Bartosik Viktor | Email: <a href=mailto:if21b082@technikum-wien.at>if21b082@technikum-wien.at</a></p>
+		<p>Henz Johannes | Email: <a href=mailto:if21b136@technikum-wien.at>if21b136@technikum-wien.at</a></p>
+		<p>Huszar Lukas | Email: <a href=mailto:if21b042@technikum-wien.at>if21b042@technikum-wien.at</a></p>
+		<p>Juraczka Lena | Email: <a href=mailto:if21b197@technikum-wien.at>if21b197@technikum-wien.at</a></p>
+		<p>Ormianin Maksymilian | Email: <a href=mailto:if21b233@technikum-wien.at>if21b233@technikum-wien.at</a></p>
 	</div>
 
 
