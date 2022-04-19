@@ -19,7 +19,7 @@ session_start();
 	
 	<div class="container" id="intro" style="text-align: center;">
 		<h1>Impressum</h1>
-		<p>Cody der Koalabär ist ein interaktives 2D Lernspiel welches Kindern spielerisch das Programmieren zeigen soll.</p>
+		<p>Cody der Koalabär™ ist ein interaktives 2D Lernspiel welches Kindern spielerisch das Programmieren zeigen soll.</p>
 		<p>Entwickler:</p>
 		<p>Bartosik Viktor | Email: <a href=mailto:if21b082@technikum-wien.at>if21b082@technikum-wien.at</a></p>
 		<p>Henz Johannes | Email: <a href=mailto:if21b136@technikum-wien.at>if21b136@technikum-wien.at</a></p>
