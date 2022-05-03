@@ -1,0 +1,70 @@
+body{
+  background-image: url('jungleBACK.gif');
+  background-size: cover;
+  cursor: url('iconedit5.png'),auto;
+}
+
+#navigation,.navbar .navbar-default{
+  background-image: url('navbar2.png');
+  padding-left:20px;
+}
+#NavbarItemColor{
+  color: #a68809;
+  font-size: medium;
+}
+#NavbarItemColor:hover{
+    background-image: url('iconedit5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+  color: #a68809;
+  text-align: center;
+  font-size: .5em;
+}
+
+p{
+  color: #a68809;
+  font-size: medium;
+}
+
+label{
+  color: #a68809;
+  font-size: medium;
+}
+
+#intro {
+  background-color: rgba(14, 13, 13, 0.65);
+  border-radius: 15px;
+  margin-top: 15px;
+  
+}
+
+#intro:hover{
+  transition: 1s;
+  transform: scale(1.05);
+  box-shadow: 8px 8px 20px lightblue;
+}
+
+#headingtime{
+  animation-duration: 2s;
+}   
+
+#login{
+  background-color: rgba(14, 13, 13, 0.65);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+#loginform{
+  text-align: center;
+  color: #a68809;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+#loginButton{
+  text-align: center;
+  margin-top: 20px;
+}

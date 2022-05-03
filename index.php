@@ -29,7 +29,7 @@ session_start();
 			Ein Koala-Bär! Doch eins macht Cody sehr traurig, zurzeit bewegt sich der Roboter und spricht nicht…</p>
 		<p>Kannst du Cody helfen, seinem Freund das Laufen, Sprechen und vieles Mehr beizubringen	?</p>
 		<div class="col-md-12 text-center">
-			<button type="button" class="btn btn-warning" style="margin-bottom: 30px; text-align: center; onclick="window.location.href = 'startGame.php';"">JA, ich will das Abenteuer starten!</button>
+			<button type="button" class="btn btn-warning" style="margin-bottom: 30px; text-align: center;" onclick="window.location.href = 'startGame.php';">JA, ich will das Abenteuer starten!</button>
 		</div>
 	</div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
