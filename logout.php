@@ -18,7 +18,8 @@ session_destroy();
 	</head>
 <body>
 	<?php include 'navbar.php';?>
-	<audio src="backgroundMusic.mp3" type="audio/mp3"></audio>
+	
+	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
 	
 		<div class="row">
 				<div class="col-4"></div>
