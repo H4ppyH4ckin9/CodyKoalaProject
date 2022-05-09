@@ -27,15 +27,15 @@ session_start();
 							<p style="text-align:center;">Hier kannst du dich einloggen um dein Abenteuer fortzusetzen!</p>
 								<div class="floating-label-wrap" id="loginform">
 								    <form name="login" action="loginVAL.php" method="post">
-									<label for="bname" class="floating-label">Benutzername</label>
-									<br>
-						  			<input type="text" class="floating-label-field floating-label-field--s3" id="bname" name="bname" placeholder="Benutzername" required>	
-						  			<br>
-						  			<label for="psw" class="floating-label">Passwort</label>
-						  			<br>
-						  			<input type="password" class="floating-label-field floating-label-field--s3" id="psw" name="psw" placeholder="Passwort" required>
-						  			<br>
-						  			<button type="submit" class="btn btn-warning" id="loginButton">Abenteuer fortsetzen!</button>
+										<label for="bname" class="floating-label">Benutzername</label>
+										<br>
+						  				<input type="text" class="floating-label-field floating-label-field--s3" id="bname" name="bname" placeholder="Benutzername" required>	
+						  				<br>
+						  				<label for="psw" class="floating-label">Passwort</label>
+						  				<br>
+						  				<input type="password" class="floating-label-field floating-label-field--s3" id="psw" name="psw" placeholder="Passwort" required>
+						  				<br>
+						  				<button type="submit" class="btn btn-warning" id="loginButton">Abenteuer fortsetzen!</button>
 								    </form>
 				  				</div>
 		  					<div class="col-4"></div>

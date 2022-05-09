@@ -1,5 +1,12 @@
 <?php
 session_start();
+$level;
+if(isset($_SESSION['level'])){
+	$level=$_SESSION['level'];
+}else{
+	$level=0;
+}
+
 ?>
 
 <html>
@@ -17,10 +24,27 @@ session_start();
 <body>
   
 	<?php include 'navbar.php';?>
-	
 	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
-  
-  
+
+	<div class="container">
+		<div class="col-md-6">
+			<form name="update" action="update.php" method="POST">
+				<label for="levelUp" class="floating-label"></label>
+				<input type="hidden" id="level" name="levelUp" value=" <?=$level; ?> ">
+				<button type="submit" class="btn btn-warning" id="updateButton">Fortschritt Speichern!</button>
+			</form>
+
+		<a href="reset.php" style="margin-bottom: 30px; text-align: center;" class="btn btn-warning">Spielstand zurücksetzen!</a>
+		</div>
+	</div>
+
+
+	<div id="gameElements">
+	
+	<div>
+
+
+	<script src="game.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
