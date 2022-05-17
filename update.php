@@ -29,7 +29,7 @@ if(isset($_SESSION["id"])){
 	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
 	
 	<div class="container">
-		<p><?php if($log==true){
+		<p id="upReText"><?php if($log==true){
 				$sql = "UPDATE `user` SET `level` = '$lvl' WHERE `id` = '$id';";
 				$db_obj->query($sql);
                 echo "Spielstand gespeichert!";
