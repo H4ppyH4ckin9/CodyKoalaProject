@@ -32,6 +32,7 @@ if(isset($_SESSION["id"])){
 		<p id="upReText"><?php if($log==true){
 				$sql = "UPDATE `user` SET `level` = '$lvl' WHERE `id` = '$id';";
 				$db_obj->query($sql);
+                $_SESSION["level"]=$lvl;
                 echo "Spielstand gespeichert!";
 				
             }else{
