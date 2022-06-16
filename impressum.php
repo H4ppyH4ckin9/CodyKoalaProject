@@ -22,11 +22,25 @@ session_start();
 	<div class="container" id="intro" style="text-align: center;">
 		<h1>Impressum</h1>
 		<p>Cody der Koalabär™ ist ein interaktives 2D Lernspiel welches Kindern spielerisch das Programmieren zeigen soll.</p>
-		<p>Entwickler:</p>
+		<p>Cody Koala GmbH</br>Höchstädtplatz 6</br>1200 Wien-Brigittenau</p>
+		<p><strong>UID-Nr:</strong> ATU55248466</p>
+		<p><strong>FN: </strong>266544b</p>
+		<p><strong>FB-Gericht: </strong>Handelsgericht Wien</br>Marxergasse 1A</br>1030 Wien-Landstraße</p>
+		<p><strong>Tel: </strong>+43 1 552 4587</p>
+		<p><strong>Email: </strong><a href=mailto:codykoala@cody.at>codykoala@cody.at</a></p>
+		<p>Mitglied der WKÖ und der ÖHV</p>
+		<p><strong>Gewerbeordnung: </strong><a href="http://www.ris.bka.gv.at" target="_blank"> www.ris.bka.gv.at/</a></p>
+		<p><strong>Aufsichtsbehörde: </strong>Magistratisches Bezirksamt für den 2. und 20. Bezirk</br>Brigittaplatz 10</br>1200 Wien-Brigittenau</p>
+		<p>Meisterprüfung abgelegt in Österreich</br>Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: <a href="http://ec.europa.eu/odr" target="_blank">http://ec.europa.eu/odr</a></p>
+		<p>Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse oder Fax-/Telefonnummer richten.</p>
+		<p><strong>Entwickler:</strong></p>
+		<img src="Viktor.jpg" alt="Bartosik Viktor" style="height: 300px; width: 225px">
 		<p>Bartosik Viktor | Email: <a href=mailto:if21b082@technikum-wien.at>if21b082@technikum-wien.at</a></p>
+		<img src="Johannes.jpg" alt="Henz Johannes" style="height: 300px; width: 225px">
 		<p>Henz Johannes | Email: <a href=mailto:if21b136@technikum-wien.at>if21b136@technikum-wien.at</a></p>
-		<p>Huszar Lukas | Email: <a href=mailto:if21b042@technikum-wien.at>if21b042@technikum-wien.at</a></p>
+		<img src="Lena.jpg" alt="Juraczka Lena" style="height: 300px; width: 225px">
 		<p>Juraczka Lena | Email: <a href=mailto:if21b197@technikum-wien.at>if21b197@technikum-wien.at</a></p>
+		<img src="Maks.jpg" alt="Ormianin Maksymilian" style="height: 300px; width: 225px">
 		<p>Ormianin Maksymilian | Email: <a href=mailto:if21b233@technikum-wien.at>if21b233@technikum-wien.at</a></p>
 	</div>
 

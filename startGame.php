@@ -27,11 +27,11 @@ if(isset($_SESSION['level'])){
 	<embed src="backgroundMusic.mp3" loop="true" autostart="true" width="2" height="0">
 
 	<div class="container" id="gameStateButtons">
-		<div class="col-md-3 text-center w3-container w3-center w3-animate-top row justify-content-start" id="headingtime">
+		<div class="col-md-3 text-center w3-container w3-center w3-animate-top row justify-content-start center" id="headingtime">
 			<form name="update" action="update.php" method="POST">
 				<label for="levelUp" class="floating-label"></label>
 				<input type="hidden" id="level" name="levelUp" value=" <?=$level; ?> ">
-				<button type="submit" class="btn btn-warning" id="updateButton" style="margin-top: 30px; text-align: center; width: 270px">Fortschritt Speichern!</button>
+				<button type="submit" class="btn btn-warning" id="updateButton" style="margin-top: 30px; text-align: center; width: 270px;" >Fortschritt Speichern!</button>
 			</form>
 
 		<a href="reset.php" style="margin-bottom: 30px; text-align: center;" class="btn btn-warning" id="resetButton">Spielstand zurücksetzen!</a>
